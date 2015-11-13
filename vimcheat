@@ -1,0 +1,39 @@
+fichier:
+":q!"quitter
+":wq"quitter/save
+"CTRL+G"état fichier
+
+Edition:
+"i"insertion
+"echap"normal
+"/texte"rechercher
+	"n":chercher à nouveau
+"s/ancien/nouveau/g"remplacer
+
+Deplacement:
+"2w"2 mots en avant
+"5e"fin du 5eme
+"0" debut de ligne
+
+Effacer:
+"x"effacer caractere
+"de"effacer mot
+"dd"effacer ligne
+"d$"effacer apres
+"d2w"effacer 2 mots apres
+
+Annuler:
+"u"derniere commande
+"U"remmettre ligne
+"CTRL+R"annuler annulations
+
+Collage:
+"dd" couper
+"p"coller
+
+fichier de conf:
+/etc/vim/vimrc
+ set number " affiche les numéros de ligne (plus propre qu'avec la commande)
+ set smartindent "Indentation intelligente (tester avec perl marche bien)
+ set autoindent  " Conserve l'indentation sur une nouvelle ligne
+ set ruler       " Affiche la position du curseur
